@@ -1,0 +1,154 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+.navbar{
+    background-color: #19283f;
+}
+.nav-link{
+    margin-left: 40px;
+    color: white;
+} 
+.nav-link:hover{
+    color: #33d1cc;
+}
+.nav-link:focus{
+    color: #33d1cc;
+}
+.btn{
+    background-color: white;
+}
+#sec1{
+    background-color: #19283f;
+    height: 900px;
+}
+section .btn{
+    width: 110px;
+}
+#line{
+    background-color: #33d1cc;
+    width: 120px;
+    height: 2px;
+}
+.icon-holder{
+    margin-top: 200px;
+    margin-right: 90px;
+}
+.number{
+    height: 200px;
+    opacity: 5%;
+    left: 44%;
+}
+.icon{
+    color: #33d1cc;
+    width: 80px;
+    height: 80px;
+}
+#subSec1 div h3{
+    color: #ffc400;
+}
+#sec3{
+    background-color: #eff7fa;
+    margin-top: 120px;
+}
+#sec3 ul{
+    width: 400px;
+}
+#sec3 ul li{
+    margin-left: 37px;
+    cursor: pointer;
+}
+#sec3 ul li:hover{
+    color: red;
+}
+#imgs{
+    flex-wrap: wrap;
+}
+#imgs .box{
+    position: relative;
+    overflow: hidden;
+}
+#imgs .box::before{
+    content: "Application";
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    transform: translateX(calc(-100% - 10px));
+    font-size: 1.5rem;
+    color: white;
+    background-color: #33d1ccad;
+    width: calc(100% - 15px);
+    height: calc(100% - 15px);
+}
+#imgs .box:hover::before{
+    transform: translateX(0);
+}
+#WantBtn button{
+    width: 130px;
+    height: 50px;
+}
+#imgs button{
+    width: 130px;
+    height: 50px;
+}
+#sec4 #mainTXT{
+    width: 45%;
+    text-align: center;
+    margin-left: 28%;
+    font-weight:450;
+}
+#laptop img{
+    max-width: 100%;
+    overflow: hidden;
+}
+#sec4 button{
+    width: 140px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+#sec5{
+    background-color: #eff7fa;
+}
+#TXT{
+    width: 80%;
+}
+.card-body{
+    background-color: #33d1cc;
+}
+#sec6 div{
+    margin: 60px 0px;
+}
+#sec7{
+    background-color: #19283f;
+}
+#sec7 button ,#sec8 button{
+    width: 140px;
+
+}
+#email{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+}
+#sec9 button{
+    background-color: #19283f;
+    color: white;
+}
+#email:focus{
+    border:0px;
+    border-bottom: 1px solid white;
+}
+#sec10{
+    background-color: #19283f;
+}
+.list{
+    list-style-type: none;
+    width: 130px;
+}
+.list li{
+    margin-top: 7px;
+    line-height: 28px;
+}
